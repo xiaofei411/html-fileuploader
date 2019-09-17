@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User</title>
+	<!-- font -->
+	<link href="dist/font/font-fileuploader.css" media="all" rel="stylesheet">
+
+	<!-- css -->
+	<link href="dist/jquery.fileuploader.min.css" media="all" rel="stylesheet">
+	<link href="./css/jquery.fileuploader-theme-avatar.css" media="all" rel="stylesheet">
+
+	<!-- js -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="dist/jquery.fileuploader.min.js" type="text/javascript"></script>
+	<script src="./js/user.js" type="text/javascript"></script>
+	<script src="./js/initial.js" type="text/javascript"></script>
+
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+            line-height: normal;
+			background-color: #fff;
+
+			margin: 0;
+		}
+		
+		.fileuploader {
+			width: 160px;
+			height: 160px;
+			margin: 15px;
+		}
+
+		.initial-profile {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+
+<input type="file" name="avatar" data-fileuploader-default="default-avatar.png" data-fileuploader-files='' >
+<img  data-color="#85e0ce" class="initial-profile"/>
+
+</body>
+</html>

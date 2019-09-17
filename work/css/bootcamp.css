@@ -1,0 +1,12 @@
+.fileuploader-theme-avatar .fileuploader-wrapper {
+	border-radius: 0;
+}
+
+.fileuploader-theme-avatar .fileuploader-droparea {
+    border-radius: 0;
+}
+
+.fileuploader-popup-preview.is-for-avatar .fileuploader-cropper .fileuploader-cropper-area .area-image,
+.fileuploader-popup-preview.is-for-avatar .fileuploader-cropper .fileuploader-cropper-area .area-move:after {
+	border-radius: 0;
+}
